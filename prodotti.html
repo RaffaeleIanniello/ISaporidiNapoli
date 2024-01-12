@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Prodotti - Caffetteria</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Your+Selected+Font&display=swap">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body{
+            background-image: url(img/sfondosecondo.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        height: 100%;
+        }
+      
+   
+        #footerTot{
+          background-color: rgb(134, 42, 42);
+          position: sticky;
+          bottom: 0;
+          width: 100%;
+          
+        }
+        .navber {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80px;
+      background-color: transparent; 
+     font-size: 20px;
+     margin-bottom: 20px;
+    }
+
+    .navber a {
+      text-decoration: none;
+      color: rgb(134, 42, 42);
+      padding: 15px;
+      margin: 0 10px;
+      transition: background-color 0.3s;
+    }
+
+    .navber a:hover {
+      background-color: rgb(134, 42, 42);
+      color: white;
+    }
+    .logoSu{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 10px;
+      margin-right: 10px;
+      
+    }
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px; /* Spazio tra le card */
+      justify-content: center;
+    }
+     /* Stile di base per la card */
+     .card {
+      width: 300px;
+      height: 350px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      overflow: hidden;
+      margin: 10px;
+      background-color: rgb(134, 42, 42);
+    }
+
+    /* Stile per l'immagine della card */
+    .card img {
+      width: 100%;
+      height: 50%;
+      border-bottom: 1px solid #ccc;
+      background-color: white;
+    }
+
+    /* Stile per la descrizione della card */
+    .card .description {
+      padding: 10px;
+      color: white;
+    }
+    .prodCibi{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        color: rgb(134, 42, 42);
+        background-color: white;
+        
+    }
+    .rosty{
+      background-color: rgba(255, 255, 255, 0.8);
+    }
+    .bottone{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+      outline: none;
+    }
+    button{
+      background-color: rgb(134, 42, 42);
+      color: white;
+      border-radius: 10px;
+      border: none;
+      padding: 10px;
+    }
+    </style>
+</head>
+<body>
+  <header class="logoSu">
+    <div>
+      <img src="img/isaporidinapolilogo.png" alt="" width="100" height="80">
+    </div>
+    <img src="img/logomorenotondo.png" alt="" width="100" height="80">
+    <div>
+      
+    </div>
+  </header>
+    <navbar>
+        <div class="navber">
+            <a href="index.html"><i class="fas fa-coffee" style="color: black;"></i></a>
+            <a href="chisiamo.html">CHI SIAMO</a>
+            <a href="prodotti.html">PRODOTTI</a>
+            <a href="contatti.html">CONTATTI</a>
+          </div>
+        </navbar>
+
+        <main>
+          <a href="altriprod.html" class="bottone"><button>PRODOTTI SENZA GLUTINE E MORENO</button></a>
+            <h2 class="prodCibi">PRODOTTI DI CORNETTERIA</h2>
+            <div class="card-container">
+            <div class="card">
+                <!-- Immagine del Prodotto -->
+                <img src="img/cornciocc.jpg" alt="Nome del Prodotto">
+            
+                <!-- Descrizione del Prodotto -->
+                <div class="description">
+                  <h2>Cornetto Cioccolato</h2>
+                  <p>Cornetto pasta sfoglia, ripieno al cioccolato.</p>
+                </div>
+              </div>
+              <div class="card">
+                <!-- Immagine del Prodotto -->
+                <img src="img/corncrem.png" alt="Nome del Prodotto">
+            
+                <!-- Descrizione del Prodotto -->
+                <div class="description">
+                  <h2>Cornetto Crema</h2>
+                  <p>Cornetto pasta sfoglia, ripieno alla crema pasticcera.</p>
+                </div>
+              </div>
+              <div class="card">
+                <!-- Immagine del Prodotto -->
+                <img src="img/corncremaamarena.jpg" alt="Nome del Prodotto">
+            
+                <!-- Descrizione del Prodotto -->
+                <div class="description">
+                  <h2>Cornetto Ischitano</h2>
+                  <p>Cornetto pasta brioche, ripieno alla crema e amarena.</p>
+                </div>
+              </div>
+              <div class="card">
+                <!-- Immagine del Prodotto -->
+                <img src="img/cornciocbian.png" alt="Nome del Prodotto">
+            
+                <!-- Descrizione del Prodotto -->
+                <div class="description">
+                  <h2>Cornetto Cioccolato Bianco</h2>
+                  <p>Cornetto pasta sfoglia, ripieno al cioccolato bianco.</p>
+                </div>
+              </div>
+              <div class="card">
+                <!-- Immagine del Prodotto -->
+                <img src="img/cornintegr.png" alt="Nome del Prodotto">
+            
+                <!-- Descrizione del Prodotto -->
+                <div class="description">
+                  <h2>Cornetto Integrale</h2>
+                  <p>Cornetto pasta sfoglia con grano integrale.</p>
+                </div>
+              </div>
+              <div class="card">
+                <!-- Immagine del Prodotto -->
+                <img src="img/cornmarm.png" alt="Nome del Prodotto">
+            
+                <!-- Descrizione del Prodotto -->
+                <div class="description">
+                  <h2>Cornetto Marmellata</h2>
+                  <p>Cornetto pasta sfoglia, ripieno alla marmellata di albicocche.</p>
+                </div>
+              </div>
+              <div class="card">
+                <!-- Immagine del Prodotto -->
+                <img src="img/cornpist.jpg" alt="Nome del Prodotto">
+            
+                <!-- Descrizione del Prodotto -->
+                <div class="description">
+                  <h2>Cornetto Pistacchio</h2>
+                  <p>Cornetto pasta sfoglia, ripieno al pistacchio.</p>
+                </div>
+              </div>
+              <div class="card">
+                <!-- Immagine del Prodotto -->
+                <img src="img/cornvuoto.png" alt="Nome del Prodotto">
+            
+                <!-- Descrizione del Prodotto -->
+                <div class="description">
+                  <h2>Cornetto Vuoto</h2>
+                  <p>Cornetto vuoto di pasta sfoglia.</p>
+                </div>
+              </div>
+              <div class="card">
+                <!-- Immagine del Prodotto -->
+                <img src="img/brioche.jpg" alt="Nome del Prodotto">
+            
+                <!-- Descrizione del Prodotto -->
+                <div class="description">
+                  <h2>Brioche</h2>
+                  <p>Brioche con tuppo.</p>
+                </div>
+              </div>
+              <div class="card">
+                <!-- Immagine del Prodotto -->
+                <img src="img/treccia.png" alt="Nome del Prodotto">
+            
+                <!-- Descrizione del Prodotto -->
+                <div class="description">
+                  <h2>Treccia</h2>
+                  <p>Treccia in pasta brioche e granella di zucchero.</p>
+                </div>
+              </div>
+              <div class="card">
+                <!-- Immagine del Prodotto -->
+                <img src="img/girella.png" alt="Nome del Prodotto">
+            
+                <!-- Descrizione del Prodotto -->
+                <div class="description">
+                  <h2>Girella</h2>
+                  <p>Girella di pasta sfoglia con gocce di cioccolato.</p>
+                </div>
+              </div>
+              <div class="card">
+                <!-- Immagine del Prodotto -->
+                <img src="img/graffa.jpg" alt="Nome del Prodotto">
+            
+                <!-- Descrizione del Prodotto -->
+                <div class="description">
+                  <h2>Graffa</h2>
+                  <p>Graffa fritta con zucchero.</p>
+                </div>
+              </div>
+              <div class="card">
+                <!-- Immagine del Prodotto -->
+                <img src="img/fagottino.png" alt="Nome del Prodotto">
+            
+                <!-- Descrizione del Prodotto -->
+                <div class="description">
+                  <h2>Fagottino</h2>
+                  <p>Fagottino di pasta sfoglia ripieno con crema pasticcera.</p>
+                </div>
+              </div>
+              <div class="card">
+                <!-- Immagine del Prodotto -->
+                <img src="img/bombacrema.jpg" alt="Nome del Prodotto">
+            
+                <!-- Descrizione del Prodotto -->
+                <div class="description">
+                  <h2>Bomba Crema</h2>
+                  <p>Bomba fritta alla crema pasticcera.</p>
+                </div>
+              </div>
+              <div class="card">
+                <!-- Immagine del Prodotto -->
+                <img src="img/buondipng.jpg" alt="Nome del Prodotto">
+            
+                <!-- Descrizione del Prodotto -->
+                <div class="description">
+                  <h2>Buondì</h2>
+                  <p>Buondì di pasta brioche, con glassa di zucchero.</p>
+                </div>
+              </div>
+              <div class="card">
+                <!-- Immagine del Prodotto -->
+                <img src="img/ciambellone.png" alt="Nome del Prodotto">
+            
+                <!-- Descrizione del Prodotto -->
+                <div class="description">
+                  <h2>Ciambellone Plum Cake</h2>
+                  <p>Ciambellone allo yogurt, gusto Plum Cake.</p>
+                </div>
+              </div>
+            </div>
+            
+            <h2 class="prodCibi">PRODOTTI DI ROSTICCERIA</h2>
+            <div class="card-container">
+            <div class="card bg-success">
+                <!-- Immagine del Prodotto -->
+                <img src="img/arancina.jpg" alt="Nome del Prodotto">
+            
+                <!-- Descrizione del Prodotto -->
+                <div class="description">
+                  <h2>Arancina</h2>
+                  <p>Arancina di riso, con carne e salsa di pomodoro.</p>
+                </div>
+              </div>
+              <div class="card bg-success">
+                <!-- Immagine del Prodotto -->
+                <img src="img/crocche.png" alt="Nome del Prodotto">
+            
+                <!-- Descrizione del Prodotto -->
+                <div class="description">
+                  <h2>Crocchè</h2>
+                  <p>Crocchè di patate, prosciutto e formaggio filante.</p>
+                </div>
+              </div>
+              <div class="card bg-success">
+                <!-- Immagine del Prodotto -->
+                <img src="img/frittatina.jpg" alt="Nome del Prodotto">
+            
+                <!-- Descrizione del Prodotto -->
+                <div class="description">
+                  <h2>Frittatina</h2>
+                  <p>Frittatina di pasta, con carne macinata, formaggio filante e piselli.</p>
+                </div>
+              </div>
+              <div class="card bg-success">
+                <!-- Immagine del Prodotto -->
+                <img src="img/hotdogs.jpg" alt="Nome del Prodotto">
+            
+                <!-- Descrizione del Prodotto -->
+                <div class="description">
+                  <h2>Hot-Dog</h2>
+                  <p>Classico Hot-Dog americano, con Wurstel.</p>
+                </div>
+              </div>
+              <div class="card bg-success">
+                <!-- Immagine del Prodotto -->
+                <img src="img/marinara.webp" alt="Nome del Prodotto">
+            
+                <!-- Descrizione del Prodotto -->
+                <div class="description">
+                  <h2>Pizza Marinara</h2>
+                  <p>Pizzetta Marinara col passata di pomodori, olio ed origano.</p>
+                </div>
+              </div>
+              <div class="card bg-success">
+                <!-- Immagine del Prodotto -->
+                <img src="img/paninap.jpg" alt="Nome del Prodotto">
+            
+                <!-- Descrizione del Prodotto -->
+                <div class="description">
+                  <h2>Panino Napoletano</h2>
+                  <p>Panino Napoletano, composto da un misto di salumi, uova e formaggio.</p>
+                </div>
+              </div>
+              <div class="card bg-success">
+                <!-- Immagine del Prodotto -->
+                <img src="img/pariginapizz.jpg" alt="Nome del Prodotto">
+            
+                <!-- Descrizione del Prodotto -->
+                <div class="description">
+                  <h2>Pizza Parigina</h2>
+                  <p>Pizzetta Parigina, al suo interno ci sono prosciutto cotto, passata di pomodori e formaggio.</p>
+                </div>
+              </div>
+              <div class="card bg-success">
+                <!-- Immagine del Prodotto -->
+                <img src="img/pizzettatonda.png" alt="Nome del Prodotto">
+            
+                <!-- Descrizione del Prodotto -->
+                <div class="description">
+                  <h2>Pizza Margherita</h2>
+                  <p>La classica montanara, con pomodoro e mozzarella.</p>
+                </div>
+              </div>
+              <div class="card bg-success">
+                <!-- Immagine del Prodotto -->
+                <img src="img/toastes.png" alt="Nome del Prodotto">
+            
+                <!-- Descrizione del Prodotto -->
+                <div class="description">
+                  <h2>Toast</h2>
+                  <p>Toast da piastrare, con sottiletta e prosciutto cotto.
+                    In alternativa, è possibile ordinare anche il crostone.
+                  </p>
+                </div>
+              </div>
+              <div class="card bg-success">
+                <!-- Immagine del Prodotto -->
+                <img src="img/wurstelpata.png" alt="Nome del Prodotto">
+            
+                <!-- Descrizione del Prodotto -->
+                <div class="description">
+                  <h2>Pizza Wurstel e Patatine</h2>
+                  <p>Pizzetta Wurstel e Patatine, con formaggio.</p>
+                </div>
+              </div>
+              </div>
+              <h2 class="prodCibi">PRODOTTI DI PASTICCERIA</h2>
+            <div class="card-container">
+            <div class="card bg-warning">
+                <!-- Immagine del Prodotto -->
+                <img src="img/babàrum.png" alt="Nome del Prodotto">
+            
+                <!-- Descrizione del Prodotto -->
+                <div class="description">
+                  <h2>Babà</h2>
+                  <p>Tradizionale Babà bagnato al Ruhm.
+                    Di dimensioni sia grande che mignon.
+                  </p>
+                </div>
+              </div>
+              <div class="card bg-warning">
+                <!-- Immagine del Prodotto -->
+                <img src="img/cannoli.png" alt="Nome del Prodotto">
+            
+                <!-- Descrizione del Prodotto -->
+                <div class="description">
+                  <h2>Cannolo</h2>
+                  <p>Cannolo napoletano, con latte di pecora.</p>
+                </div>
+              </div>
+              <div class="card bg-warning">
+                <!-- Immagine del Prodotto -->
+                <img src="img/cannoliarachidi.webp" alt="Nome del Prodotto">
+            
+                <!-- Descrizione del Prodotto -->
+                <div class="description">
+                  <h2>Cannoli Mandorlati</h2>
+                  <p>Cannoli ricoperti di mandorle, al gusto di cioccolato, pistacchio e nocciola.</p>
+                </div>
+              </div>
+              <div class="card bg-warning">
+                <!-- Immagine del Prodotto -->
+                <img src="img/codina.jpg" alt="Nome del Prodotto">
+            
+                <!-- Descrizione del Prodotto -->
+                <div class="description">
+                  <h2>Codina D'Aragosta</h2>
+                  <p>Codina d'Aragosta di pasta sfoglia,
+                    al gusto di cioccolato, cioccolato bianco, limone,
+                    pistacchio e nocciola.</p>
+                </div>
+              </div>
+              <div class="card bg-warning">
+                <!-- Immagine del Prodotto -->
+                <img src="img/donuts.png" alt="Nome del Prodotto">
+            
+                <!-- Descrizione del Prodotto -->
+                <div class="description">
+                  <h2>Donuts</h2>
+                  <p>Classico Donuts americano, al gusto di cioccolato, 
+                    crema e fragola.</p>
+                </div>
+              </div>
+              <div class="card bg-warning">
+                <!-- Immagine del Prodotto -->
+                <img src="img/frolla.png" alt="Nome del Prodotto">
+            
+                <!-- Descrizione del Prodotto -->
+                <div class="description">
+                  <h2>Sfogliatella Frolla</h2>
+                  <p>Sfogliatella Frolla con ricotta, semola e canditi.</p>
+                </div>
+              </div>
+              <div class="card bg-warning">
+                <!-- Immagine del Prodotto -->
+                <img src="img/sfoglia.png" alt="Nome del Prodotto">
+            
+                <!-- Descrizione del Prodotto -->
+                <div class="description">
+                  <h2>Sfogliatella Riccia</h2>
+                  <p>Classica sfohliatella di pasta sfoglia, con ricotta, semola e canditi.</p>
+                </div>
+              </div>
+              <div class="card bg-warning">
+                <!-- Immagine del Prodotto -->
+                <img src="img/tortanonna.png" alt="Nome del Prodotto">
+            
+                <!-- Descrizione del Prodotto -->
+                <div class="description">
+                  <h2>Torta della Nonna</h2>
+                  <p>La tradizionale Torta della Nonna fatta in casa.</p>
+                </div>
+              </div>
+              <div class="card bg-warning">
+                <!-- Immagine del Prodotto -->
+                <img src="img/zeppola.png" alt="Nome del Prodotto">
+            
+                <!-- Descrizione del Prodotto -->
+                <div class="description">
+                  <h2>Zeppola di San Giuseppe</h2>
+                  <p>La Zeppola di San Giuseppe, sia fritta che al forno, con crema e ciliegina.
+                    Disponibile sia grande che mignon.
+                  </p>
+                </div>
+              </div>
+              
+              </div>
+          
+             </main>
+
+<!-- Footer -->
+<footer class="text-light text-center py-2" id="footerTot">
+    <p>&copy; 2024 "I Sapori di Napoli S.r.l.s.". Tutti i diritti riservati.</p>
+</footer>
+
+<!-- Bootstrap JavaScript and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
